@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" 
+              href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        
+        <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+        <!--[if IE]><link rel="shortcut icon" href="../img/favicon/faviconIE9andBelow.ico"><![endif]-->
+       
+        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
+        <link rel="apple-touch-icon-precomposed" href="../img/favicon/faviconTouchIcon.png">
+
+        <!-- Chrome, Firefox, IE 11+, Safari and Opera. 196x196 pixels in size. -->
+        <link rel="icon" href="../img/favicon/faviconDesktopModernBrowsers.png">
+        
+        <title>Dice Battle</title>
+    </head>
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Round score</div>
+                    <div class="player-current-score" id="current-0">0</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Round score</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <img src="../img/dice/dice-2.png" class="dice" id="dice-1" alt="dice 1">
+            <img src="../img/dice/dice-2.png" class="dice" id="dice-2" alt="dice 2">
+            
+            <button class="btn-menu"><i class="ion-navicon"></i>menu</button>
+            <button class="btn-new"> <i class="ion-ios-plus-outline"></i>new game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>end turn</button>
+            
+            <p id="dice-roll-notification">dice roll notification</p>
+            <p id="fast-click-notification" class="fast-clicking-notif-style">
+                Wait 3 seconds between clicks
+            </p>
+            <p id="game-over-notification" class="game-over-notif-style">
+                GAME OVER
+            </p>
+        </div>
+        <script id = "js-library" src="../js/library.js"></script>
+        <script id = "dice-battle-script" src="../js/dice-battle.js"></script>
+    </body>
+</html>

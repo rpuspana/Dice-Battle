@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" 
+              href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        
+        <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+        <!--[if IE]><link rel="shortcut icon" href="../img/favicon/faviconIE9andBelow.ico"><![endif]-->
+       
+        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
+        <link rel="apple-touch-icon-precomposed" href="../img/favicon/faviconTouchIcon.png">
+
+        <!-- Chrome, Firefox, IE 11+, Safari and Opera. 196x196 pixels in size. -->
+        <link rel="icon" href="../img/favicon/faviconDesktopModernBrowsers.png">
+        
+        <title>Dice Battle - Game rules</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="game-menu-page-content">
+                
+                <div id="game-menu-header">
+                    <p>game rules</p>
+                </div>
+                
+                <div id="game-menu-content-placeholder" style="overflow-y: scroll; overflow-x:hidden;">
+                    
+                    <div class="game-rules-content" id="content-placeholder-dummy">
+                        <h3>Winner</h3>
+                        <p>
+                            The first player with a player score greater or equal than 100.<br>
+                        </p>
+                        
+                        <h3>Game board details</h3>
+                        <h4>Player &nbsp;<i class="ion-record" style="font-size:12px; margin-top: 6px; margin-right: 5px"></i></h4>
+                        <p>
+                            The player name that has the dot next to it, is the active player, begining a new game round.<br>
+                            He can use the "roll dice" button, "end turn button", to manipulate the dice and increase his score, or the other two buttons to restart the game or reach the game's main menu.
+                        </p>
+                        <h4>Player score</h4>
+                        <p>
+                            The first sum shown under the player's name.<br>
+                            It represents the sum of all round scores gained by the player throughout the game.<br>
+                            At the end of each round this score is compared to 100, to see which player won.
+                        </p>
+                        <h4>Round score</h4>
+                        <p>
+                            The sum in the red rectangle that appears under the player's score.<br>
+                            Each time a user clicks on the "roll dice" button the sum of both dice is added 
+                            to the existing round score (which will be 0 at first).<br>
+                            To add the round score to the total score, the player must end his turn by 
+                            clicking the "end turn" button.<br>
+                            Keep in mind that different numbers shown on each dice will affect the current player's round score.<br>
+                            Visit the last section to lean more about the <span style="color:#ED4D4D;">special dice combinations</span>.
+                        </p>
+                        
+                        <h4><i class="ion-ios-plus-outline" style="font-size:20px;  margin-top:-2px;"></i>NEW GAME</h4>
+                        <p>
+                            Play a new game. Player score is set to 0, round score is set to 0, Player 1 will roll the dice first.
+                        </p>
+                        
+                        <h4><i class="ion-ios-loop-strong" style="font-size:20px; margin-top:-2px;"></i>ROLL DICE</h4>
+                        <p>Current player rolls the dice.</p>
+                        
+                        <h4><i class="ion-ios-download-outline" style="font-size:22px; margin-top: -3px;"></i>END TURN</h4>
+                        <p>
+                            Current player ends turn. His round score gets added to his player score.
+                        </p>
+                        <h3>Special dice roll</h3>
+                         <h4>Both dice are 6</h4>
+                         <p>
+                            Player score increases by 20, round score is 0, game control passed to the next player.
+                        </p>
+                        <h4>Either dice is 1</h4>
+                        <p>
+                            Player score remains the same, round score is set to 0, game control passed to the next player.
+                        </p>
+                        <h4>Both dice are 1</h4>
+                        <p>
+                           Player score is set to 0, round score is set to 0, game control passed to the next player.
+                        </p>
+                    
+                       
+                    </div><!-- <div id="game-rules-content"> -->
+                </div><!-- "game-rules-placeholder"> -->
+            </div><!-- "player-0-panel" -->
+        </div><!-- class="wrapper clearfix"> -->
+        <script id = "js-library" src="../js/library.js"></script>
+        <script id="submenu-script" src="../js/submenu.js"></script>
+    </body>
+</html>
