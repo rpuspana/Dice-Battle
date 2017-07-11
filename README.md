@@ -1,10 +1,11 @@
 # Dice Battle
+Dice Battle is a beautiful, turn-based, two player arcade.
 
 ## Getting started
 In order to launch the game, go to the game's folder > html folder > click on start-game.html
 
 ## Features
-1. turn-based, 2D,  two player game
+1. 
 2. multi-page app  with user triggered events
 3. cross browser compatible
 4. user experience design
