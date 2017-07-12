@@ -2,7 +2,7 @@
 Dice Battle is a beautiful, turn-based, two player browser game.
 
 ### Start the game
-In order to launch the game, go to the game's folder > html folder > click on start-game.html
+In order to start the game, go to the game's folder > html folder > click on start-game.html
 
 ### Features
 1. turn-based, 2D, two player browser game
