@@ -32,11 +32,11 @@ You can also use a IE setting to stop this message from appearing
 5. If you're using Firefox, you need to make a quick setting in order to see the beautiful fonts this game uses.  
 Otherwise you will get stuck with the default boring fonts.
 Here's how to put this setting in place :  
- 1. open Firefox, if this is the browser you want to use  
- 2. type   about:config   in the browser's address bar  
- 3. in the settings list that appears, search for  security.fileuri.strict_origin_policy  
- 4. change  security.fileuri.strict_origin_policy value from true to false  
-More info about this https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs
+ * open Firefox  
+ * type   about:config   in the browser's address bar  
+ * in the settings list that appears, search for  security.fileuri.strict_origin_policy  
+ * change  security.fileuri.strict_origin_policy value from true to false  
+ More info about this https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs
 
 ### Game compatibility
 
