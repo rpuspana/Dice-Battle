@@ -1,15 +1,17 @@
 ## Dice Battle
-Dice Battle is a beautiful, turn-based, two player arcade.
+Dice Battle is a beautiful, turn-based, two player browser game.
 
-### Getting started
+### Start the game
 In order to launch the game, go to the game's folder > html folder > click on start-game.html
 
 ### Features
-1. multi-page app  with user triggered events
+1. turn-based, 2D, two player browser game
 2. cross browser compatible
-3. user experience design
-4. log file
-5. beautiful graphics
+3. game feedback on user actions
+4. user experience design
+5. page content access restrictions
+6. app log
+7. beautiful graphics
 
 ### Technologies used
 1. JavaScript ECMAScript 2015
@@ -27,14 +29,14 @@ Go to your browser settings and turn on the "allow JavaScript to run on all webs
 4. Internet Explorer 11 shows a message window with the message "Internet Explorer restricted this web page from running scripts or ActiveX controls". Click yes to allow the JavaScript code of the game to run on the page this message appears.
 You can also use a IE setting to stop this message from appearing
 
-5. If you're using Firefox, you need to make a quick setting in order to see the beautiful fonts this game uses.
-   Otherwise you will get stuck with the default boring fonts.
-Here are the steps to put the setting in place
-1. open Firefox, if this is the browser you want to use
-2. type   about:config   in the browser's address bar
-3. in the settings list that appears, search for  security.fileuri.strict_origin_policy
-4. change  security.fileuri.strict_origin_policy value from true to false. 
-  More info about this https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs
+5. If you're using Firefox, you need to make a quick setting in order to see the beautiful fonts this game uses.  
+Otherwise you will get stuck with the default boring fonts.
+Here's how to put this setting in place :  
+ 1. open Firefox, if this is the browser you want to use  
+ 2. type   about:config   in the browser's address bar  
+ 3. in the settings list that appears, search for  security.fileuri.strict_origin_policy  
+ 4. change  security.fileuri.strict_origin_policy value from true to false  
+More info about this https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs
 
 ### Game compatibility
 
