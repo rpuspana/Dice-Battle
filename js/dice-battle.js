@@ -425,9 +425,6 @@ function initialiseGameBoard() {
     console.log(getTimeAndDate() + 'DEBUG   Player ' + (activePlayer + 1) + 
                 ' rolls the dice first');
     
-    // hide the two dice at the begining of the game
-    document.getElementById('dice-1').style.display = 'none';
-    document.getElementById('dice-2').style.display = 'none';
     console.log('%sDEBUG   hide both dice on UI', getTimeAndDate());
     
     // hide all notifications on start-game.html at the begining of a new game
