@@ -26,7 +26,7 @@ function getScriptNameById(scriptId) {
 
 // log user agent and active webpage
 function logPlayerBrowserDetails() {
-    console.log('%sDEBUG %s  logPlayerBrowserDetails()', getTimeAndDate(), getScriptNameById('js-library'));
+    console.log('%sDEBUG %s  logPlayerBrowserDetails()', getTimeAndDate(),  getScriptNameById('js-library'));
     
     var libraryScriptName = getScriptNameById('js-library');
     var userAgent, lastIndex, currentWindow;
