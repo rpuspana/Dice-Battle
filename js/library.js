@@ -26,17 +26,18 @@ function getScriptNameById(scriptId) {
 
 // log user agent and active webpage
 function logPlayerBrowserDetails() {
-    var libraryScriptName = getScriptNameById('js-library');
-    console.log('%sDEBUG %s  logPlayerBrowserDetails()', getTimeAndDate(), libraryScriptName);
+    console.log('%sDEBUG %s  logPlayerBrowserDetails()', getTimeAndDate(), getScriptNameById('js-library'));
     
+    var libraryScriptName = getScriptNameById('js-library');
     var userAgent, lastIndex, currentWindow;
     
+    // get the full link of the current page
     currentWindow = window.location.href;
     
     // the user can change this in the browser's settings, not ideal to use
     userAgent = navigator.userAgent;
     
-    console.log('%sDEBUG %s   UA ' + userAgent, getTimeAndDate(), libraryScriptName);
+    console.log('%sDEBUG %s   UA %s', getTimeAndDate(), libraryScriptName, userAgent);
     
     lastIndex = currentWindow.lastIndexOf('/');
     console.log('%sDEBUG %s   active webpage : ' + 
