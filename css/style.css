@@ -101,14 +101,14 @@
 }
 
 .fast-clicking-notif-style {
-    font-size: 15px;
     padding: 0.5% 7%;
+    font-size: 15px;
     background: #EB4D4D;
     color: #fff;
 }
 
 .game-over-notif-style {
-    padding: 0.5% 9%;
+    padding: 0.5% 12%;
     background: #EB4D4D;
     color: #fff;  
 }
