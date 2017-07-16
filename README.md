@@ -6,7 +6,7 @@ Dice Battle is a beautiful, turn-based, two player desktop browser game.
 2. If downloaded, you will find an archive who's name will contain the words "Dice Battle". This archive contains the game.
 3. Extract the archive
 4. Go to the folder extracted from the archive, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
-   Please see which versions of these browsers the game runs on, [by going to the "Designed for" section.|#### Designed-for ]
+   Please see which versions of these browsers the game runs on, [by going to the "Designed for" section.](#### Designed-for)
 
 ### Features
 1. Turn-based, 2D, two player browser game
@@ -42,7 +42,7 @@ Here's how :
 
 ### Game compatibility
 
-#### Designed-for 
+#### Designed-for
 * desktop Google Chrome, versions 59, 58, 57, 56
 * desktop Mozilla Firefox, versions 54, 53, 52, 51
 * desktop Microsoft Internet Explorer, versions 11, 10
