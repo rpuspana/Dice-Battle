@@ -28,7 +28,7 @@ Dice Battle is a beautiful, turn-based, two player desktop browser game.
 2. Internet connection (enables game to display image buttons)
 
 3. The browser's JavaScript setting turned on. We need this setting in order for the game to generate the dice faces, keep track of the player scores, declare the winner, open the menu, go navigate back from the sub menus to the menu, close the sub menu, close the menu.
-Go to your browser settings and turn on the "allow JavaScript to run on all websites" setting.
+Go to your browser settings and turn on the "allow JavaScript to run on all websites" setting.  
 **Note :** In case you didn't alter Internet Explorer 11' default settings, when you open the start-game.html and menu.html pages, click on "Allow blocked content" button in the dialogue window that appears, to allow the JavaScript code of the game to run on the page this message appears.
 
 ### Optional settings
