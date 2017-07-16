@@ -1,28 +1,7 @@
 ## Dice Battle
 Dice Battle is a beautiful, turn-based, two player desktop browser game.
 
-### Getting started
-1. Clone or download the game using the "Clone or Download button"
-2. If downloaded, you will find an archive who's name will contain the words "Dice Battle". This archive contains the game.
-3. Extract the archive
-4. Go to the folder extracted from the archive, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
-   Please see which versions of these browsers the game runs on, [by going to the "Designed for" section.](#designed-for)
-
-### Features
-1. Turn-based, 2D, two player browser game
-2. Cross browser compatible
-3. Game feedback on user actions
-4. User experience design
-5. Web page content access restrictions
-6. Game log
-7. Beautiful graphics
-
-### Technologies used
-1. JavaScript ECMAScript 2015
-2. HTML 5
-3. CSS 3
-
-### Game requirements
+### Required game settings
 1. A single 10.4" screen or bigger and a screen resolution of at least 800x600.
 
 2. Internet connection (enables game to display image buttons)
@@ -39,6 +18,27 @@ Here's how :
  * in the settings list that appears, search for  security.fileuri.strict_origin_policy  
  * change  security.fileuri.strict_origin_policy value from true to false  
  More info about this https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs
+
+### Download and start the game
+1. Clone or download the game using the "Clone or Download button"
+2. If downloaded, you will find an archive who's name will contain the words "Dice Battle". This archive contains the game.
+3. Extract the archive
+4. Go to the folder extracted from the archive, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
+   Please see which versions of these browsers the game runs on, [by going to the "Designed for" section.](#designed-for)
+
+### Game features
+1. Turn-based, 2D, two player browser game
+2. Cross browser compatible
+3. Game feedback on user actions
+4. User experience design
+5. Web page content access restrictions
+6. Game log
+7. Beautiful graphics
+
+### Technologies used
+1. JavaScript ECMAScript 2015
+2. HTML 5
+3. CSS 3
 
 ### Game compatibility
 
