@@ -31,8 +31,8 @@ Dice Battle is a beautiful, turn-based, two player desktop browser game.
 Go to your browser settings and turn on the "allow JavaScript to run on all websites" setting.  
 **Note :** In case you didn't alter Internet Explorer 11' default settings, when you open the start-game.html and menu.html pages, click on "Allow blocked content" button in the dialogue window that appears, to allow the JavaScript code of the game to run on the page this message appears.
 
-### Optional settings
-For Firefox 3.5 or later, a setting must be made in order for Firefox to let the game access it's fonts
+### Optional game settings
+For Firefox 3.5 and later, a setting must be made so that Firefox will let the game access it's fonts.
 Here's how :  
  * open Firefox  
  * type   about:config   in the browser's address bar  
