@@ -1,8 +1,12 @@
 ## Dice Battle
 Dice Battle is a beautiful, turn-based, two player desktop browser game.
 
-### Start the game
-1. Go to the game's folder, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
+### Getting started
+1. Clone or download the game using the "Clone or Download button"
+2. If downloaded, you will find an archive who's name will contain the words "Dice Battle". This archive contains the game.
+3. Extract the archive
+4. Go to the folder extracted from the archive, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
+   Please see which versions of these browsers the game runs on, [by going to the "Designed for" section.|#### Designed-for ]
 
 ### Features
 1. Turn-based, 2D, two player browser game
@@ -19,19 +23,17 @@ Dice Battle is a beautiful, turn-based, two player desktop browser game.
 3. CSS 3
 
 ### Game requirements
-1. You can play the game on single 10.4" screen or bigger and a screen resolution of at least 800x600.
+1. A single 10.4" screen or bigger and a screen resolution of at least 800x600.
 
-2. An internet connection so that the game can display button images
+2. Internet connection (enables game to display image buttons)
 
-3. The browser's JavaScript setting turned on. We need this setting in order for the game to generate the dice faces, keep track of the player scores, declare the winner, open the menu, go back and close the menu.
+3. The browser's JavaScript setting turned on. We need this setting in order for the game to generate the dice faces, keep track of the player scores, declare the winner, open the menu, go navigate back from the sub menus to the menu, close the sub menu, close the menu.
 Go to your browser settings and turn on the "allow JavaScript to run on all websites" setting.
+**Note :** In case you didn't alter Internet Explorer 11' default settings, when you open the start-game.html and menu.html pages, click on "Allow blocked content" button in the dialogue window that appears, to allow the JavaScript code of the game to run on the page this message appears.
 
-4. Internet Explorer 11 shows a message window with the message "Internet Explorer restricted this web page from running scripts or ActiveX controls". Click yes to allow the JavaScript code of the game to run on the page this message appears.
-You can also use a IE setting to stop this message from appearing
-
-5. If you're using Firefox, you need to make a quick setting in order to see the beautiful fonts this game uses.  
-Otherwise you will get stuck with the default boring fonts.
-Here's how to put this setting in place :  
+### Optional settings
+For Firefox 3.5 or later, a setting must be made in order for Firefox to let the game access it's fonts
+Here's how :  
  * open Firefox  
  * type   about:config   in the browser's address bar  
  * in the settings list that appears, search for  security.fileuri.strict_origin_policy  
@@ -40,7 +42,7 @@ Here's how to put this setting in place :
 
 ### Game compatibility
 
-#### Designed for 
+#### Designed-for 
 * desktop Google Chrome, versions 59, 58, 57, 56
 * desktop Mozilla Firefox, versions 54, 53, 52, 51
 * desktop Microsoft Internet Explorer, versions 11, 10
