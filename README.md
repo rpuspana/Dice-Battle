@@ -1,17 +1,17 @@
 ## Dice Battle
-Dice Battle is a beautiful, turn-based, two player browser game.
+Dice Battle is a beautiful, turn-based, two player desktop browser game.
 
 ### Start the game
-In order to start the game, go to the game's folder > html folder > click on start-game.html
+1. Go to the game's folder, enter the html folder and open start-game.html in Chrome, Firefox or Internet Explorer.
 
 ### Features
-1. turn-based, 2D, two player browser game
-2. cross browser compatible
-3. game feedback on user actions
-4. user experience design
-5. page content access restrictions
-6. app log
-7. beautiful graphics
+1. Turn-based, 2D, two player browser game
+2. Cross browser compatible
+3. Game feedback on user actions
+4. User experience design
+5. Web page content access restrictions
+6. Game log
+7. Beautiful graphics
 
 ### Technologies used
 1. JavaScript ECMAScript 2015
@@ -41,14 +41,13 @@ Here's how to put this setting in place :
 ### Game compatibility
 
 #### Designed for 
-* Windows 10 Pro 64 bit, Google Chrome, versions 59, 58, 57
-* Windows 10 Pro 64 bit, Mozilla Firefox, versions 54, 53, 52, 51
-* Windows 10 Pro 64 bit, Microsoft Internet Explorer, versions 11, 10
+* desktop Google Chrome, versions 59, 58, 57, 56
+* desktop Mozilla Firefox, versions 54, 53, 52, 51
+* desktop Microsoft Internet Explorer, versions 11, 10
 
 #### Tested on
-* Windows 10 Pro 64 bit 
-  * Google Chrome 59.0.3071.86 (Official Build) (64-bit)
-  * Google Chrome 58           (Official Build) (64-bit)
+* Windows 10 Pro 64 bit, Google Chrome 59.0.3071.86 (Official Build) (64-bit)
+* Windows 10 Pro 64 bit, Google Chrome 58.0.3029 (Official Build) (64-bit)
     
 * Windows 10 Pro 64 bit, Mozilla Firefox 53.0.3 (32 bit)
 
