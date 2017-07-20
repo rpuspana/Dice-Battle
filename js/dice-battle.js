@@ -114,6 +114,7 @@ document.querySelector('.btn-new').addEventListener('click', function() {
         console.info(getTimeAndDate() + 'INFO Player clicked the new game button');
     }
     
+    // Set up global game variables and update the UI accordingly
     initilizeGame();                   
 });
 
@@ -322,7 +323,7 @@ function emphasizeWinningPlayerOnUI() {
 }
 
 
-// Set up global game variables and modify UI, in order to start a new game
+// Set up global game variables and update the UI accordingly, in order to start a new game
 function initilizeGame() {
     console.info(getTimeAndDate() + 'INFO  inside %s', currentRunningScript);
     console.info(getTimeAndDate() + 'INFO  *** START GAME ***');
