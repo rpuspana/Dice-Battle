@@ -315,10 +315,10 @@ function displayOrLogDiceBtnDisabledNotif(notifMsg) {
 function emphasizeWinningPlayerOnUI() {
     console.log(getTimeAndDate() + 'DEBUG   emphasizeWinningPlayerOnUI()');
 
-    // apply the .winner CSS class from style.css
+    // isert the "winner" CSS class to <div class="player-activePlayer-panel active">
     document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
 
-    // remove the active CSS class from style.css
+    // remove the "active" CSS class from <div class="player-activePlayer-panel winner active">
     document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
 }
 
@@ -407,20 +407,20 @@ function initialisePlayerUI(playerID) {
     
     // restore player name
     document.getElementById('name-' + playerID).textContent = 'Player ' + (playerID + 1);
+
+    // remove the "winner" CSS class from <div class="player-playerID-panel">
+    // that may have been inserted into this <div> from the last game
+    document.querySelector('.player-' + playerID + '-panel').classList.remove('winner');
+
+    // remove the "active" CSS class from <div class="player-playerID-panel">
+    // that may have been inserted into this <div> from the last game
+    document.querySelector('.player-' + playerID + '-panel').classList.remove('active');
 }
 
 // initialise game board to start a new game
 function initialiseGameBoard() {
     console.log(getTimeAndDate() + 'DEBUG  initialiseGameBoard()');
-    
-    var  winningPlayer = document.querySelector('.winner');
-    
-    if (winningPlayer !== null) {
-         // find the player who has won and remove the specific winner styling from this uI
-        document.querySelector('.winner').classList.remove('winner');
-        console.log(getTimeAndDate() + 'DEBUG   remove winner markings on the UI from a previous game');
-    }
-    
+
     // emphasize activ player on UI
     document.querySelector('.player-' + activePlayer + '-panel').classList.add('active');
     console.log(getTimeAndDate() + 'DEBUG   Player ' + (activePlayer + 1) + 
