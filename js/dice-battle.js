@@ -64,6 +64,9 @@ var waitTimeOver;
 // variable for handling the menu page
 var menuPageRef;
 
+// timer id returned from setTimeout()
+var timeoutID;
+
 currentRunningScript = getScriptNameById('dice-battle-script');
 
 // log user agent, webpage and script name
@@ -123,8 +126,8 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     
     var diceFace1, diceFace2;
     
-    // add delay between clicks on the "roll dice" button
-    setTimeout(function() {
+    // add delay between clicks on the "roll dice" button and store the id returned from setTimeout()
+    timeoutID = setTimeout(function() {
         waitTimeOver = true;
         
         //when the time expires, hide the "fast clicking documentation"
@@ -191,8 +194,8 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     
     console.info(getTimeAndDate() + 'INFO  # Player ' + (activePlayer + 1) + ' clicked the END TURN BUTTON');
     
-    // add delay between clicks on the "end turn" button
-    setTimeout(function() {
+    // add delay between clicks on the "end turn" button and store the id returned from setTimeout()
+    timeoutID = setTimeout(function() {
         waitTimeOver = true;
         
         //when the time expires, hide the "fast clicking" notification
