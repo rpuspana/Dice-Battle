@@ -17,8 +17,9 @@ var currentRunningScript;
 // how much points a player needs to win the game
 var DEFAULT_WINNER_SCORE;
 
-// number of seconds to wait until the roll dice and hold button
-// can be clicked by the user
+// number of miliseconds to wait until the roll dice and hold button
+// can be clicked by the user again
+// 1000 ms = 1 second
 var WAIT_TIME_BETWEEN_BUTTON_CLICKS;
 
 // if this number is shown on just one dice, causes the player to pass game controls
@@ -38,10 +39,6 @@ var BONUS_SCORE_66_ROLL;
 
 // the player wiht a score of at least this many points, wins
 var DEFAULT_WINNER_SCORE;
-
-// number of miliseconds (ms) a player has to wait between clicks
-/// 1000 ms = 1 second
-var WAIT_TIME_BETWEEN_BUTTON_CLICKS;
 
 // total score of each player
 // scores[0] holds the score of Player 1
