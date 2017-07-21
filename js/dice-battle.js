@@ -126,6 +126,9 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     
     var diceFace1, diceFace2;
     
+    // stop the previously created job(anonymous function inside the setTimeot() below) from executing
+    clearTimeout(timeoutID);
+
     // add delay between clicks on the "roll dice" button and store the id returned from setTimeout()
     timeoutID = setTimeout(function() {
         waitTimeOver = true;
@@ -194,6 +197,9 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     
     console.info(getTimeAndDate() + 'INFO  # Player ' + (activePlayer + 1) + ' clicked the END TURN BUTTON');
     
+    // stop the previously created job(anonymous function inside the setTimeot() below) from executing
+    clearTimeout(timeoutID);
+
     // add delay between clicks on the "end turn" button and store the id returned from setTimeout()
     timeoutID = setTimeout(function() {
         waitTimeOver = true;
